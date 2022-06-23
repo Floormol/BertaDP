@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: linear-gradient(to right, #f0d3d1, white); }
+  body div header {
+    background-color: #f3b6b0;
+    display: flex;
+    padding-right: 15px; }
+    body div header h1 {
+      color: black;
+      text-align: center;
+      font-size: 5rem;
+      font-family: 'Waterfall', cursive;
+      font-weight: 600;
+      display: inline;
+      margin: 20px 50px; }
+    body div header nav {
+      font-size: 1.3rem; }
+      body div header nav ul li:hover {
+        transform: translateY(2px);
+        background-color: #eae1ce; }
+  body div div main div p {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    color: black; }
+  body div div aside .publicidad__1--1 {
+    width: 300px;
+    margin: 30px 60px; }
+  body div div aside .publicidad__2--2 {
+    width: 363px;
+    margin: 30px 60px; }
+  body div div aside .publicidad__3--3 {
+    width: 330px;
+    margin: 30px 60px; }
+  body div footer {
+    background-color: #eb7375;
+    display: flex;
+    justify-content: center; }
+    body div footer div .footer__redes--wp {
+      color: #eae1ce;
+      font-size: 2.7rem;
+      margin: 35px 10px; }
+    body div footer div .footer__redes--wp:hover {
+      transform: scale(1.4);
+      transition: 1s;
+      color: #208520; }
+    body div footer div .footer__redes--insta {
+      color: #eae1ce;
+      font-size: 2.7rem;
+      margin: 35px 10px; }
+    body div footer div .footer__redes--insta:hover {
+      transform: scale(1.4);
+      transition: 1s;
+      background: -webkit-linear-gradient(#aa35e0, #ebd517);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    body div footer div .footer__redes--face {
+      color: #eae1ce;
+      font-size: 2.7rem;
+      margin: 35px 10px; }
+    body div footer div .footer__redes--face:hover {
+      transform: scale(1.4);
+      transition: 1s;
+      color: #1f54e6; }
+    body div footer div .footer__redes--messe {
+      color: #eae1ce;
+      font-size: 2.7rem;
+      margin: 35px 10px; }
+    body div footer div .footer__redes--messe:hover {
+      transform: scale(1.4);
+      transition: 1s;
+      color: #1e3985; }
