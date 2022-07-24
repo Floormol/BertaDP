@@ -1,4 +1,18 @@
 
-$color-header: #f3b6b0;
-$color-botnav: #eae1ce;
-$color-footer: #eb7375;
+$color-header: #bd8bd1;
+$color-botnav: #a767c0;
+$color-footer: #9dd4cb;
+$color-botfoot: #813399;
+
+//mixin
+@mixin formulario{
+    padding: 1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+//extend
+%texto1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}

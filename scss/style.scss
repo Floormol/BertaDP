@@ -9,7 +9,7 @@
 }
 
 body{
-    background: linear-gradient(to right, #f0d3d1, white);
+    background-image: url(../img/fondo2.jpg);
     div{
         header{
             background-color: $color-header;
@@ -23,29 +23,50 @@ body{
                 font-weight: 600;
                 display: inline;
                 margin: 20px 50px; 
+                @media screen and (max-width: 1231px){
+                    font-size: 4rem;
+                    margin: 15px 40px;
+                }
+                @media screen and (max-width: 497px){
+                    font-size: 2.5rem;
+                    margin: 4px 15px;
+                }
             }
             nav{
                 font-size: 1.3rem;
+                font-family: 'Nunito', sans-serif;
+                padding: 1rem;
+                @media screen and (max-width: 1231px){
+                    font-size: 1rem;
+                }
                 ul{
                     li:hover{
-                        transform: translateY(2px);
-                        background-color: $color-botnav;
+                        transform: translateY(5px);
+                        a:hover{
+                            color: white !important; 
+                        }
                     }
                 }
             }
         }
-        div{
             main{
                 div{
-                    p{
-                        text-align: center;
-                        font-family: 'Libre Baskerville', serif;
-                        font-size: 1.5rem;
-                        color: black; 
+                    div{
+                        p{
+                            text-align: center;
+                            font-family: 'Nunito', sans-serif;
+                            font-size: 1.5rem;
+                            color: black; 
+                            @media screen and (max-width: 1231px){
+                                font-size: 1.3;
+                            }
+                            @media screen and (max-width: 497px){
+                                font-size: 1rem;
+                            }
+                        }
                     }
                 }
             }
-        }
         div{
             aside{
                 .publicidad__1--1{
@@ -68,56 +89,201 @@ body{
         }
         footer{
             background-color: $color-footer;
-            display: flex;
-            justify-content: center;
             div{
-                .footer__redes--wp{
-                    color: $color-botnav;
-                    font-size: 2.7rem;
-                    margin: 35px 10px;
+                div{
+                    display: flex;
+                    justify-content: center;
+                    div{
+                        .footer__redes--wp{
+                            color: $color-botfoot;
+                            font-size: 2.7rem;
+                            padding: 5px 10px;
+                            margin-top: 10px;
+                            @media screen and (max-width: 768px){
+                                font-size: 2.2rem;
+                                padding: 3px 7px;
+                                margin-top: 7px;
+                            }
+                        }
+                        .footer__redes--wp:hover{
+                            transform: scale(1.4);
+                            transition: 1s;
+                            color: rgb(32, 133, 32);
+                        }
+                    }
+                    div{
+                        .footer__redes--insta{
+                            color: $color-botfoot;
+                            font-size: 2.7rem;
+                            padding: 5px 10px;
+                            margin-top: 10px;
+                            @media screen and (max-width: 768px){
+                                font-size: 2.2rem;
+                                padding: 3px 7px;
+                                margin-top: 7px;
+                            }
+                        }
+                        .footer__redes--insta:hover{
+                            transform: scale(1.4);
+                            transition: 1s;
+                            background: -webkit-linear-gradient(rgb(170, 53, 224), rgb(235, 213, 23));
+                            -webkit-background-clip: text;
+                           -webkit-text-fill-color: transparent;
+                        }
+                    }
+                    div{
+                        .footer__redes--face{
+                            color: $color-botfoot;
+                            font-size: 2.7rem;
+                            padding: 5px 10px;
+                            margin-top: 10px;
+                            @media screen and (max-width: 768px){
+                                font-size: 2.2rem;
+                                padding: 3px 7px;
+                                margin-top: 7px;
+                            }
+                        }
+                        .footer__redes--face:hover{
+                            transform: scale(1.4);
+                            transition: 1s;
+                            color: rgb(31, 84, 230);
+                        }
+                    }
+                    div{
+                        .footer__redes--messe{
+                            color: $color-botfoot;
+                            font-size: 2.7rem;
+                            padding: 5px 10px;
+                            margin-top: 10px;
+                            @media screen and (max-width: 768px){
+                                font-size: 2.2rem;
+                                padding: 3px 7px;
+                                margin-top: 7px;
+                            }
+                        }
+                        .footer__redes--messe:hover{
+                            transform: scale(1.4);
+                            transition: 1s;
+                            color: rgb(30, 57, 133);
+                        }
+                    }
                 }
-                .footer__redes--wp:hover{
-                    transform: scale(1.4);
-                    transition: 1s;
-                    color: rgb(32, 133, 32);
+                div{
+                    p{
+                        color: $color-botfoot;
+                        font-family: 'Nunito', sans-serif;
+                        @media screen and (max-width: 768px){
+                            font-size: 0.9rem;
+                        }
+                    }
                 }
             }
-            div{
-                .footer__redes--insta{
-                    color: $color-botnav;
-                    font-size: 2.7rem;
-                    margin: 35px 10px;
+        }
+    }
+}
+/* nuestros servicios */
+body{
+    div{
+        main{
+            h2{
+                padding: 2rem 8rem;
+                font-family: 'Nunito', sans-serif;
+                font-size: 3rem;
+                @media screen and (max-width: 1231px){
+                    font-size: 1.6rem;
+                    margin: 1.5rem;
                 }
-                .footer__redes--insta:hover{
-                    transform: scale(1.4);
-                    transition: 1s;
-                    background: -webkit-linear-gradient(rgb(170, 53, 224), rgb(235, 213, 23));
-                    -webkit-background-clip: text;
-                   -webkit-text-fill-color: transparent;
+                @media screen and (max-width: 768px){
+                    font-size: 1.4rem;
+                    margin: 1rem;
+                    padding: 1.5rem 5rem;
+                }
+              }
+            div{
+                h1{
+                    margin: 2rem;
+                    margin-bottom: 1rem;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 2.5rem;
+                    @media screen and (max-width: 1231px){
+                        font-size: 1.8rem;
+                        margin: 1.5rem;
+                    }
+                    @media screen and (max-width: 768px){
+                        font-size: 1.5rem;
+                        margin: 1rem;
+                    }
+                }
+                div{
+                    ul{
+                        li{
+                            font-size: 1.5rem;
+                            @media screen and (max-width: 1231px){
+                                font-size: 1.3rem;
+                            }
+                            @media screen and (max-width: 768px){
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
                 }
             }
+        }
+    }
+}
+
+/* galería de imágenes */
+body{
+    div{
+        div{
             div{
-                .footer__redes--face{
-                    color: $color-botnav;
-                    font-size: 2.7rem;
-                    margin: 35px 10px;
+                .galeriaimagenes__imagen--img{
+                    width: 300px;
+                    height: 300px;
+                    margin: 1rem;
                 }
-                .footer__redes--face:hover{
-                    transform: scale(1.4);
+                .galeriaimagenes__imagen--img:hover{
+                    transform: scale(1.5);
                     transition: 1s;
-                    color: rgb(31, 84, 230);
                 }
             }
+        }
+    }
+}
+/* contacto */
+body{
+    div{
+        .headercontacto{
+            background-color: rgb(228, 161, 186);
+        }
+        
+    }
+    .fondo{
+        background-image: url(../img/fondoformu.jpg);
+        div{
             div{
-                .footer__redes--messe{
-                    color: $color-botnav;
-                    font-size: 2.7rem;
-                    margin: 35px 10px;
+                .formulario{
+                    @include formulario
+                    @media screen and (max-width: 1024px){
+                        font-size: 0.8rem;
+                    }
                 }
-                .footer__redes--messe:hover{
-                    transform: scale(1.4);
-                    transition: 1s;
-                    color: rgb(30, 57, 133);
+            }
+        } 
+    }
+}
+
+/* quienes somos */ 
+body{
+    div{
+        .quiesom{
+            div{
+                @extend %texto1;
+                @media screen and (max-width: 1357px){
+                    font-size: 1.3rem;
+                }
+                @media screen and (max-width: 768px){
+                    font-size: 1.1rem;
                 }
             }
         }

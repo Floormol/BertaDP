@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="eventos, salón, fiesta, deco">
+    <meta name="description" content="Conocé todo sobre Berta Deco Party, un emprendimiento de salón y decoración para fiestas infantiles, comunión, cumpleaños, bautismos, etc.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <!-- link Bootstrap -->
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -14,11 +19,11 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- iconos footer -->
     <script src="https://kit.fontawesome.com/994041f941.js" crossorigin="anonymous"></script>
-    <title>BertaDECOPARTY</title>
+    <title>BertaDecoParty-HOME</title>
 </head>
 
 <body>
-    <div class="contenedor">
+    <div>
         <header class="header">
             <h1 class="header__nombre"> Berta Deco Party</h1>
             <nav class="navbar navbar-expand-lg ms-auto">
@@ -29,20 +34,20 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                      <li class="nav-item">
+                      <li class="nav-item fw-bold">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="pages/nuestrosservicios.html">Nuestros servicios</a>
+                      <li class="nav-item fw-bold">
+                        <a class="nav-link" aria-current="page" href="pages/nuestrosservicios.html">Nuestros servicios</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="pages/galeriadeimagenes.html">Galería de imágenes</a>
+                      <li class="nav-item fw-bold">
+                        <a class="nav-link" href="pages/galeriadeimagenes.html">Galería de imágenes</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="pages/quienessomos.html">Quienes somos</a>
+                      <li class="nav-item fw-bold">
+                        <a class="nav-link" href="pages/quienessomos.html">Quienes somos</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="pages/contacto.html">Contacto</a>
+                      <li class="nav-item fw-bold">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
                       </li>
                       </li>
                     </ul>
@@ -51,79 +56,90 @@
               </nav>
         </header>
        
-        <div class="container-fluid">
-            <main class="inicio row">
-                <div class="col-sm-12 col-xl-4 p-5 d-flex align-items-center">
-                    <p class="inicio__parrafo "> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quidem non nesciunt, libero quis vitae, suscipit pariatur, voluptatum aspernatur necessitatibus vero cumque error officia repellat eaque illum ducimus quo ea!</p>
+        <main class="container inicio">
+          <div class="row">
+            <div class="col-sm-12 col-xl-4 p-5 text-center">
+              <p class="inicio__parrafo mt-5 fw-bold"> Somos un equipo dedicado a proyectar y cuidar cada detalle de tu evento, día a día nos capacitamos para ofrecerte las últimas tendencias en deco y organización.</p>
+              <p class="inicio__parrafo2 mt-5 fw-bold">La vida es corta. Sonríe. Disfruta. FESTEJA.</p>
+            </div>
+          <div class="col-sm-12 col-xl-8 p-5">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner shadow mb-5 bg-body rounded">
+                    <div class="carousel-item active">
+                      <img src="img/carrusel1.jpg" class="d-block w-100" alt="fechas de Septimebre disponibles">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/carrusel2.jpg" class="d-block w-100" alt="Inflable disponible en salón">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/carrusel3.jpg" class="d-block w-100" alt="Ya contamos con vajilla para alquilar">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <div class="col-sm-12 col-xl-8 p-5 ">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                </div>
-            </main>
+          </div>
         </div>
+      </main>
 
-        <div class="row">
-            <aside class="publicidad__1 col-sm-12 col-xl-4 d-flex justify-content-center">
-                <img class="publicidad__1--1" src="img/publi1.jpg" alt="publicidad de fanta">
-           </aside>
-       
-           <aside class="publicidad__2 col-sm-12 col-xl-4 d-flex justify-content-center">
-               <img class="publicidad__2--2" src="img/publi2.webp" alt="publicidad de lays">
-           </aside>
-       
-           <aside class="publicidad__3 col-sm-12 col-xl-4 d-flex justify-content-center">
-               <img class="publicidad__3--3" src="img/publi3.jpg" alt="publicidad de lays">
-           </aside>
+      <div class="conteiner">
+        <div class="row m-0">
+          <aside class="publicidad__1 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+              <img class="publicidad__1--1 shadow mb-5 bg-body rounded img-fluid" src="img/publi1.jpg" alt="publicidad de Fanta">
+         </aside>
+         <aside class="publicidad__2 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+             <img class="publicidad__2--2 shadow mb-5 bg-body rounded img-fluid" src="img/publi2.jpg" alt="publicidad de Lays">
+         </aside>
+         <aside class="publicidad__3 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+             <img class="publicidad__3--3 shadow mb-5 bg-body rounded img-fluid" src="img/publi3.jpg" alt="publicidad de Cheetos">
+         </aside>
+         <aside class="publicidad__4 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <img class="publicidad__3--3 shadow mb-5 bg-body rounded img-fluid" src="img/publi4.jpg" alt="publicidad de Sweet Party cotillón">
+      </aside>
         </div>
+      </div>
 
     
-       <footer class="footer">
-           <div class="footer__redes--wp" id="footer_redes">
-            <a class="footer__redes--wp" href="https://web.whatsapp.com" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-           </div>
-           <div class="footer__redes--insta" id="footer_redes">
-            <a class="footer__redes--insta" href="https://www.instagram.com" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-           </div>
-           <div class="footer__redes--face" id="footer_redes">
-            <a class="footer__redes--face" href="https://m.facebook.com" target="_blank">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-           </div>
-           <div class="footer__redes--messe" id="footer_redes">
-            <a class="footer__redes--messe" href="https://m.facebook.com" target="_blank">
-                <i class="fab fa-facebook-messenger"></i>
-            </a>
-           </div>
-        </footer>
+      <footer class="footer conteiner">
+        <div class="row m-0">
+          <div class="col-12">
+            <div class="footer__redes--wp" id="footer_redes">
+              <a class="footer__redes--wp" href="https://web.whatsapp.com" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+              </a>
+             </div>
+             <div class="footer__redes--insta" id="footer_redes">
+              <a class="footer__redes--insta" href="https://www.instagram.com" target="_blank">
+                  <i class="fab fa-instagram"></i>
+              </a>
+             </div>
+             <div class="footer__redes--face" id="footer_redes">
+              <a class="footer__redes--face" href="https://m.facebook.com" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+              </a>
+             </div>
+             <div class="footer__redes--messe" id="footer_redes">
+              <a class="footer__redes--messe" href="https://m.facebook.com" target="_blank">
+                  <i class="fab fa-facebook-messenger"></i>
+              </a>
+             </div>
+          </div>
+          <div class="col-12 fw-bold">
+            <p>Todos los derechos reservados</p>
+          </div>
+        </div>
+      </footer>
     </div>
     <!-- Java -->
     <!-- JavaScript Bundle with Popper -->
